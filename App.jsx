@@ -3,6 +3,7 @@ import { Header } from "./src/components/Header"
 import { Form   } from "./src/components/Form"
 import { TodosList } from "./src/components/TodosList"
 
+
 export const App = () => {
 
   const initialState = JSON.parse(localStorage.getItem("todos")) || [];  
@@ -12,7 +13,7 @@ export const App = () => {
   
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos])
+  }, [todos]);
 
   return (
     <div className="container">

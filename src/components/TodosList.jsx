@@ -25,7 +25,7 @@ export const TodosList = ({todos, setTodos, setEditTodo}) => {
   return (
     <div>
         {todos.map((todo) => (
-            <li className="todo-list" key={todo.id}>
+            <li className="list-item" key={todo.id}>
                 <input type="text" value={todo.title} className={`list ${todo.completed ? "complete" : ""}`} onChange={(event) => event.preventDefault()} />
                 <div>
                     <button className="button-complete task-button" onClick={() => handleComplete(todo)}>

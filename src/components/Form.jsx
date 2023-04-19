@@ -34,11 +34,11 @@ export const Form = ({input, setInput, todos, setTodos, editTodo, setEditTodo}) 
   };
 
   return (
-    <for onSubmit={onFormSubmit}>
+    <form onSubmit={onFormSubmit}>
         <input type="text" placeholder="Enter a todo....." className="task-input" value={input} required onChange={onInputChange} />
         <button className="button-add" type="submit">
             {editTodo ? "OK" : "Add"}
         </button>
-    </for>
+    </form>
   )
 }
