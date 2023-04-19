@@ -32,6 +32,9 @@ export const App = () => {
                 />
             </div>
             <div>
+            
+            </div>
+            <div>
                 <TodosList todos={todos} setTodos={setTodos} setEditTodo={setEditTodo} />
             </div>
         </div>
