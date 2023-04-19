@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: linear-gradient(to right bottom, #1d9cce, #5c70df);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@
   font-size: 20px;
   color: #ccc;
   background-color: #000000;
-  border: 1px solid #c89666;
+  border: 1px solid #5c70df;
   border-radius: 10px;
 }
 
@@ -47,14 +47,14 @@
   font-size: 20px;
   border-radius: 10px;
   border: 0;
-  background-color: #f1af71;
+  background-color: #1d9cce;
   cursor: pointer;
 }
 
 .list-item {
   display: flex;
   margin: 20px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #1d9cce;
   border-radius: 10px;
   padding: 10px;
   max-height: 30px;
@@ -72,17 +72,17 @@
 }
 
 .button-complete {
-  color: #ff6c6c;
+  color: #23d300;
   margin-right: 10px;
 }
 
 .button-edit {
-  color: #e2d029;
+  color: #ffe600;
   margin-right: 10px;
 }
 
 .button-delete {
-  color: lightseagreen;
+  color: rgb(219, 75, 75);
 }
 
 .complete {
